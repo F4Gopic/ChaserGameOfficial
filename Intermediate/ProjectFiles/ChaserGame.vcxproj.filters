@@ -53,5 +53,11 @@
     <ClInclude Include="..\..\Source\ChaserGame\ChaserGameGameMode.h">
       <Filter>Source\ChaserGame</Filter>
     </ClInclude>
+    <None Include="..\..\Source\ChaserGameClient.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ChaserGameServer.Target.cs">
+      <Filter>Source</Filter>
+    </None>
   </ItemGroup>
 </Project>
