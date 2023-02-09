@@ -2,7 +2,9 @@
 	"SourceFiles": [
 		"D:\\ALLMYFAVORITES\\Games\\ChaserGame\\Source\\ChaserGame\\ChaserGame.Build.cs",
 		"D:\\ALLMYFAVORITES\\Games\\ChaserGame\\Source\\ChaserGame.Target.cs",
-		"D:\\ALLMYFAVORITES\\Games\\ChaserGame\\Source\\ChaserGameEditor.Target.cs"
+		"D:\\ALLMYFAVORITES\\Games\\ChaserGame\\Source\\ChaserGameClient.Target.cs",
+		"D:\\ALLMYFAVORITES\\Games\\ChaserGame\\Source\\ChaserGameEditor.Target.cs",
+		"D:\\ALLMYFAVORITES\\Games\\ChaserGame\\Source\\ChaserGameServer.Target.cs"
 	],
 	"EngineVersion": "5.1.0"
 }

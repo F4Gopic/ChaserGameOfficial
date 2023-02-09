@@ -8,9 +8,18 @@
     <None Include="..\..\Source\ChaserGame.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\Source\ChaserGameClient.Target.cs">
+      <Filter>Source</Filter>
+    </None>
     <None Include="..\..\Source\ChaserGameEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\Source\ChaserGameServer.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\README.md" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -28,6 +37,18 @@
     </None>
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
+    </None>
+    <Filter Include="Platforms">
+      <UniqueIdentifier>{ED49A36C-4FD5-37E5-A2AC-E11BEF4F21CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\HoloLens">
+      <UniqueIdentifier>{28125F47-4973-377C-9D77-EBC3C72EC856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\HoloLens\Config">
+      <UniqueIdentifier>{D3BF39CB-FA64-39E2-A327-B5021BA69773}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\HoloLens\Config\HoloLensEngine.ini">
+      <Filter>Platforms\HoloLens\Config</Filter>
     </None>
     <Filter Include="Source\ChaserGame">
       <UniqueIdentifier>{EA9BB8AF-A8A4-3EC0-8B95-160E7A9AE074}</UniqueIdentifier>
@@ -53,11 +74,5 @@
     <ClInclude Include="..\..\Source\ChaserGame\ChaserGameGameMode.h">
       <Filter>Source\ChaserGame</Filter>
     </ClInclude>
-    <None Include="..\..\Source\ChaserGameClient.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\ChaserGameServer.Target.cs">
-      <Filter>Source</Filter>
-    </None>
   </ItemGroup>
 </Project>
