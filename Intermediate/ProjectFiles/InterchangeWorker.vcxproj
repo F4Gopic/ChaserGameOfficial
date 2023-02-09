@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|x64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|x64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|x64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|x64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|x64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0E474707-A06A-3EE4-B74D-7BF9E18C3017}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>InterchangeWorker</RootNamespace>
+    <PlatformToolset>v143</PlatformToolset>
+    <MinimumVisualStudioVersion>17.0</MinimumVisualStudioVersion>
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat InterchangeWorker Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat InterchangeWorker Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat InterchangeWorker Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>E:\Source5.1\UnrealEngine\Engine\Binaries\Win64\InterchangeWorker-Win64-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat InterchangeWorker Win64 DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat InterchangeWorker Win64 DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat InterchangeWorker Win64 DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>E:\Source5.1\UnrealEngine\Engine\Binaries\Win64\InterchangeWorker-Win64-DebugGame.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat InterchangeWorker Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat InterchangeWorker Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat InterchangeWorker Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>E:\Source5.1\UnrealEngine\Engine\Binaries\Win64\InterchangeWorker.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat InterchangeWorker Win64 Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat InterchangeWorker Win64 Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat InterchangeWorker Win64 Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>E:\Source5.1\UnrealEngine\Engine\Binaries\Win64\InterchangeWorker-Win64-Test.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat InterchangeWorker Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat InterchangeWorker Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat InterchangeWorker Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>E:\Source5.1\UnrealEngine\Engine\Binaries\Win64\InterchangeWorker-Win64-Shipping.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);E:\Source5.1\UnrealEngine\Engine\Source;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Launch\Private;E:\Source5.1\UnrealEngine\Engine\Source\Programs\InterchangeWorker\Private;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Inc\ApplicationCore\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Inc\ApplicationCore\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\ApplicationCore\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Inc\Core\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Inc\Core\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\TraceLog\Public;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Core\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Inc\TraceLog\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Inc\TraceLog\VNI;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Inc\RHI\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Inc\RHI\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\RHI\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Inc\CoreUObject\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Inc\CoreUObject\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Inc\InterchangeCore\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Inc\InterchangeCore\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Interchange;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Interchange\Core\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Inc\Json\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Inc\Json\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Json\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Inc\InterchangeDispatcher\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Inc\InterchangeDispatcher\VNI;E:\Source5.1\UnrealEngine\Engine\Plugins\Interchange\Runtime\Source;E:\Source5.1\UnrealEngine\Engine\Plugins\Interchange\Runtime\Source\Dispatcher\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Inc\Sockets\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Inc\Sockets\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Sockets\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Inc\NetCommon\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Inc\NetCommon\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Net;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Net\Common\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Inc\InterchangeFbxParser\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Inc\InterchangeFbxParser\VNI;E:\Source5.1\UnrealEngine\Engine\Plugins\Interchange\Runtime\Source\Parsers;E:\Source5.1\UnrealEngine\Engine\Plugins\Interchange\Runtime\Source\Parsers\Fbx\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Inc\InterchangeNodes\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Inc\InterchangeNodes\VNI;E:\Source5.1\UnrealEngine\Engine\Plugins\Interchange\Runtime\Source\Nodes\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Inc\Projects\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Inc\Projects\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Projects\Public;E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Inc\InterchangeWorker\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Inc\InterchangeWorker\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Programs;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Launch\Public;D:\Visual Studio\VC\Tools\MSVC\14.33.31629\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\InterchangeWorker\InterchangeWorker.Target.cs"/>
+    <None Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\InterchangeWorker\InterchangeWorker.Build.cs"/>
+    <ClCompile Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\InterchangeWorker\Private\InterchangeWorker.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty\FBX\2020.2\include;E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty\FBX\2020.2\include\fbxsdk;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Development\InterchangeWorker\Definitions.InterchangeWorker.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\InterchangeWorker\Private\InterchangeWorker.h"/>
+    <ClCompile Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\InterchangeWorker\Private\InterchangeWorkerImpl.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty\FBX\2020.2\include;E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty\FBX\2020.2\include\fbxsdk;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Development\InterchangeWorker\Definitions.InterchangeWorker.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\InterchangeWorker\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\InterchangeWorker\Private\InterchangeWorkerImpl.h"/>
+    <None Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\InterchangeWorker\Resources\Windows\BlankProgram.ico"/>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

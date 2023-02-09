@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\allmyfavorites\\games\\chasergame\\intermediate\\build\\win64\\unrealeditor\\inc\\chasergame\\uht\\chasergamegamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\source5.1\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\allmyfavorites\\games\\chasergame\\intermediate\\build\\win64\\unrealeditor\\development\\chasergame\\definitions.chasergame.h",
+            "d:\\allmyfavorites\\games\\chasergame\\source\\chasergame\\chasergamegamemode.h",
+            "e:\\source5.1\\unrealengine\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "e:\\source5.1\\unrealengine\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "e:\\source5.1\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "e:\\source5.1\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "d:\\allmyfavorites\\games\\chasergame\\intermediate\\build\\win64\\unrealeditor\\inc\\chasergame\\uht\\chasergamegamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/ALLMYFAVORITES/Games/ChaserGame/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"D:/ALLMYFAVORITES/Games/ChaserGame/Content/Splash/EdSplash.uasset",
+				"D:/ALLMYFAVORITES/Games/ChaserGame/Content/Maps/Chase_Terrain_Phase_1.umap",
+				"D:/ALLMYFAVORITES/Games/ChaserGame/Content/Splash/Splash.uasset"
+			]
+		}
+	]
+}

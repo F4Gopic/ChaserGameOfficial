@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\allmyfavorites\\games\\chasergame\\intermediate\\build\\win64\\unrealeditor\\inc\\chasergame\\uht\\chasergamecharacter.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\source5.1\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\allmyfavorites\\games\\chasergame\\intermediate\\build\\win64\\unrealeditor\\development\\chasergame\\definitions.chasergame.h",
+            "d:\\allmyfavorites\\games\\chasergame\\source\\chasergame\\chasergamecharacter.h",
+            "e:\\source5.1\\unrealengine\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "e:\\source5.1\\unrealengine\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "e:\\source5.1\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "e:\\source5.1\\unrealengine\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "e:\\source5.1\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "e:\\source5.1\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "e:\\source5.1\\unrealengine\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputactionvalue.h",
+            "e:\\source5.1\\unrealengine\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputactionvalue.generated.h",
+            "d:\\allmyfavorites\\games\\chasergame\\intermediate\\build\\win64\\unrealeditor\\inc\\chasergame\\uht\\chasergamecharacter.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

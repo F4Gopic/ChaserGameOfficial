@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Invalid|arm64">
+      <Configuration>Invalid</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|x64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|arm64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|x64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|arm64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|x64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|arm64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|x64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|arm64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|x64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|arm64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8838B874-41B8-3CC5-9423-9FA9063EF2D2}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>ReplicationSystemTest</RootNamespace>
+    <PlatformToolset>v143</PlatformToolset>
+    <MinimumVisualStudioVersion>17.0</MinimumVisualStudioVersion>
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|arm64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat ReplicationSystemTest Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat ReplicationSystemTest Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat ReplicationSystemTest Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>E:\Source5.1\UnrealEngine\Engine\Binaries\Win64\ReplicationSystemTest-Win64-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat ReplicationSystemTest HoloLens Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat ReplicationSystemTest HoloLens Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat ReplicationSystemTest HoloLens Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>E:\Source5.1\UnrealEngine\Engine\Binaries\HoloLens\ReplicationSystemTest-HoloLens-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat ReplicationSystemTest Win64 DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat ReplicationSystemTest Win64 DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat ReplicationSystemTest Win64 DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>E:\Source5.1\UnrealEngine\Engine\Binaries\Win64\ReplicationSystemTest-Win64-DebugGame.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat ReplicationSystemTest HoloLens DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat ReplicationSystemTest HoloLens DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat ReplicationSystemTest HoloLens DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>E:\Source5.1\UnrealEngine\Engine\Binaries\HoloLens\ReplicationSystemTest-HoloLens-DebugGame.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat ReplicationSystemTest Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat ReplicationSystemTest Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat ReplicationSystemTest Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>E:\Source5.1\UnrealEngine\Engine\Binaries\Win64\ReplicationSystemTest.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat ReplicationSystemTest HoloLens Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat ReplicationSystemTest HoloLens Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat ReplicationSystemTest HoloLens Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>E:\Source5.1\UnrealEngine\Engine\Binaries\HoloLens\ReplicationSystemTest.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat ReplicationSystemTest Win64 Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat ReplicationSystemTest Win64 Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat ReplicationSystemTest Win64 Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>E:\Source5.1\UnrealEngine\Engine\Binaries\Win64\ReplicationSystemTest-Win64-Test.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat ReplicationSystemTest HoloLens Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat ReplicationSystemTest HoloLens Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat ReplicationSystemTest HoloLens Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>E:\Source5.1\UnrealEngine\Engine\Binaries\HoloLens\ReplicationSystemTest-HoloLens-Test.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat ReplicationSystemTest Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat ReplicationSystemTest Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat ReplicationSystemTest Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>E:\Source5.1\UnrealEngine\Engine\Binaries\Win64\ReplicationSystemTest-Win64-Shipping.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat ReplicationSystemTest HoloLens Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat ReplicationSystemTest HoloLens Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat ReplicationSystemTest HoloLens Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>E:\Source5.1\UnrealEngine\Engine\Binaries\HoloLens\ReplicationSystemTest-HoloLens-Shipping.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);E:\Source5.1\UnrealEngine\Engine\Source;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Launch\Private;E:\Source5.1\UnrealEngine\Engine\Source\Programs\ReplicationSystemTest\Private;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\ApplicationCore\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\ApplicationCore\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\ApplicationCore\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\Core\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\Core\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\TraceLog\Public;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Core\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\TraceLog\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\TraceLog\VNI;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\RHI\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\RHI\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\RHI\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\AutomationController\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\AutomationController\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Developer;E:\Source5.1\UnrealEngine\Engine\Source\Developer\AutomationController\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\CoreUObject\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\CoreUObject\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\AutomationTest\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\AutomationTest\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\AutomationTest\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\AutomationWorker\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\AutomationWorker\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\AutomationWorker\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\Projects\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\Projects\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Projects\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\Json\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\Json\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Json\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\Engine\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\Engine\VNI;E:\Source5.1\UnrealEngine\Engine\Shaders\Shared;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Engine\Classes;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Engine\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\CoreOnline\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\CoreOnline\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\CoreOnline\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\NetCore\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\NetCore\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Net;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Net\Core\Classes;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Net\Core\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\NetCommon\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\NetCommon\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Net\Common\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\ImageCore\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\ImageCore\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\ImageCore\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\JsonUtilities\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\JsonUtilities\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\JsonUtilities\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\SlateCore\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\SlateCore\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\SlateCore\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\InputCore\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\InputCore\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\InputCore\Classes;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\InputCore\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\Slate\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\Slate\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Slate\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\ImageWrapper\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\ImageWrapper\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\ImageWrapper\Public;E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\Messaging\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\Messaging\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Messaging\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\MessagingCommon\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\MessagingCommon\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\MessagingCommon\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\RenderCore\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\RenderCore\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\RenderCore\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\AnalyticsET\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\AnalyticsET\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Analytics;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Analytics\AnalyticsET\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\Analytics\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\Analytics\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Analytics\Analytics\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\Sockets\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\Sockets\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Sockets\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\AssetRegistry\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\AssetRegistry\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\AssetRegistry\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\EngineMessages\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\EngineMessages\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\EngineMessages\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\EngineSettings\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\EngineSettings\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\EngineSettings\Classes;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\EngineSettings\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\SynthBenchmark\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\SynthBenchmark\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\SynthBenchmark\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\Renderer\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\Renderer\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Renderer\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\GameplayTags\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\GameplayTags\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\GameplayTags\Classes;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\GameplayTags\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\DeveloperSettings\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\DeveloperSettings\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\DeveloperSettings\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\PacketHandler\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\PacketHandler\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\PacketHandlers;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\PacketHandlers\PacketHandler\Classes;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\PacketHandlers\PacketHandler\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\ReliableHComp\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\ReliableHComp\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\AudioPlatformConfiguration\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\AudioPlatformConfiguration\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\AudioPlatformConfiguration\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\MeshDescription\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\MeshDescription\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\MeshDescription\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\StaticMeshDescription\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\StaticMeshDescription\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\StaticMeshDescription\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\SkeletalMeshDescription\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\SkeletalMeshDescription\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\SkeletalMeshDescription\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\AnimationCore\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\AnimationCore\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\AnimationCore\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\PakFile\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\PakFile\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\PakFile\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\RSA\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\RSA\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\RSA\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\NetworkReplayStreaming\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\NetworkReplayStreaming\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\NetworkReplayStreaming;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\PhysicsCore\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\PhysicsCore\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\PhysicsCore\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\Chaos\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\Chaos\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Experimental;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Experimental\Chaos\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\ChaosCore\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\ChaosCore\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Experimental\ChaosCore\Public;E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty\Intel;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\Voronoi\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\Voronoi\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Experimental\Voronoi\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\GeometryCore\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\GeometryCore\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\GeometryCore\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\SignalProcessing\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\SignalProcessing\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\SignalProcessing\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\AudioExtensions\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\AudioExtensions\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\AudioExtensions\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\AudioMixerCore\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\AudioMixerCore\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\AudioMixerCore\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\AudioLinkCore\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\AudioLinkCore\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\AudioLink;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\AudioLink\AudioLinkCore\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\CookOnTheFly\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\CookOnTheFly\VNI;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\Networking\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\Networking\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Networking\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\ClothSysRuntimeIntrfc\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\ClothSysRuntimeIntrfc\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\IrisCore\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\IrisCore\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Experimental\Iris;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Experimental\Iris\Core\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\AudioMixer\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\AudioMixer\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\AudioMixer\Classes;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\AudioMixer\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\TargetPlatform\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\TargetPlatform\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Developer\TargetPlatform\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\TextureFormat\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\TextureFormat\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Developer\TextureFormat\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\MovieSceneCapture\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\MovieSceneCapture\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\MovieSceneCapture\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\TypedElementFramework\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\TypedElementFramework\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\TypedElementFramework\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\TypedElementRuntime\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\TypedElementRuntime\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\TypedElementRuntime\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\HeadMountedDisplay\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\HeadMountedDisplay\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\HeadMountedDisplay\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\AugmentedReality\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\AugmentedReality\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\AugmentedReality\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\MRMesh\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\MRMesh\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\MRMesh\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\InstallBundleManager\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\InstallBundleManager\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\InstallBundleManager\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\MediaUtils\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\MediaUtils\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\MediaUtils\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\Media\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\Media\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Media\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\MoviePlayer\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\MoviePlayer\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\MoviePlayer\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\MoviePlayerProxy\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\MoviePlayerProxy\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\MoviePlayerProxy\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\PreLoadScreen\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\PreLoadScreen\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\PreLoadScreen\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\ProfilerService\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\ProfilerService\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Developer\ProfilerService\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\ReplicationSystemTestPlugin\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\ReplicationSystemTestPlugin\VNI;E:\Source5.1\UnrealEngine\Engine\Plugins\Runtime\ReplicationSystemTestPlugin;E:\Source5.1\UnrealEngine\Engine\Plugins\Runtime\ReplicationSystemTestPlugin\Source\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\SessionServices\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\SessionServices\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\SessionServices\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\SlateNullRenderer\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\SlateNullRenderer\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\SlateNullRenderer\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\SlateRHIRenderer\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\SlateRHIRenderer\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\SlateRHIRenderer\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\TaskGraph\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\TaskGraph\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Developer\TaskGraph\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\DerivedDataCache\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\DerivedDataCache\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Developer\DerivedDataCache\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\ReplicationSystemTest\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Inc\ReplicationSystemTest\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Programs;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Launch\Public;D:\Visual Studio\VC\Tools\MSVC\14.33.31629\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\ReplicationSystemTest\ReplicationSystemTest.Target.cs"/>
+    <None Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\ReplicationSystemTest\ReplicationSystemTest.Build.cs"/>
+    <ClCompile Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\ReplicationSystemTest\Private\AutomationTestRunner.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Development\Engine\SharedPCH.Engine.ShadowErrors.h;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Development\ReplicationSystemTest\Definitions.ReplicationSystemTest.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Development\Engine\SharedPCH.Engine.ShadowErrors.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\ReplicationSystemTest\Private\AutomationTestRunner.h"/>
+    <ClInclude Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\ReplicationSystemTest\Private\NullTestRunner.h"/>
+    <ClCompile Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\ReplicationSystemTest\Private\ReplicationSystemTest.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Development\Engine\SharedPCH.Engine.ShadowErrors.h;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Development\ReplicationSystemTest\Definitions.ReplicationSystemTest.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Development\Engine\SharedPCH.Engine.ShadowErrors.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\ReplicationSystemTest\Private\ReplicationSystemTest.h"/>
+    <ClCompile Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\ReplicationSystemTest\Private\ReplicationSystemTestFileModule.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source\Win64;E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Development\Engine\SharedPCH.Engine.ShadowErrors.h;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Development\ReplicationSystemTest\Definitions.ReplicationSystemTest.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ReplicationSystemTest\Development\Engine\SharedPCH.Engine.ShadowErrors.h"</AdditionalOptions>
+    </ClCompile>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

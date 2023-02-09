@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ChaserGame",
+			"Path": "D:\\ALLMYFAVORITES\\Games\\ChaserGame\\Source\\ChaserGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ChaserGameEditor",
+			"Path": "D:\\ALLMYFAVORITES\\Games\\ChaserGame\\Source\\ChaserGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

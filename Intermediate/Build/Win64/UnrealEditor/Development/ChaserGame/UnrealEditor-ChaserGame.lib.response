@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ChaserGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\UnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\ALLMYFAVORITES\Games\ChaserGame\Intermediate\Build\Win64\UnrealEditor\Development\ChaserGame\ChaserGame.init.gen.cpp.obj"
+"D:\ALLMYFAVORITES\Games\ChaserGame\Intermediate\Build\Win64\UnrealEditor\Development\ChaserGame\ChaserGameCharacter.gen.cpp.obj"
+"D:\ALLMYFAVORITES\Games\ChaserGame\Intermediate\Build\Win64\UnrealEditor\Development\ChaserGame\ChaserGameGameMode.gen.cpp.obj"
+"D:\ALLMYFAVORITES\Games\ChaserGame\Intermediate\Build\Win64\UnrealEditor\Development\ChaserGame\ChaserGame.cpp.obj"
+"D:\ALLMYFAVORITES\Games\ChaserGame\Intermediate\Build\Win64\UnrealEditor\Development\ChaserGame\ChaserGameCharacter.cpp.obj"
+"D:\ALLMYFAVORITES\Games\ChaserGame\Intermediate\Build\Win64\UnrealEditor\Development\ChaserGame\ChaserGameGameMode.cpp.obj"
+"..\Intermediate\Build\Win64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"D:\ALLMYFAVORITES\Games\ChaserGame\Intermediate\Build\Win64\UnrealEditor\Development\ChaserGame\UnrealEditor-ChaserGame.lib"

@@ -1,0 +1,51 @@
+﻿  Using bundled DotNet SDK version: 6.0.302
+  Building UnrealBuildTool with Microsoft Visual Studio Community 2022...
+  Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -Target="ChaserGameEditor Win64 Development -Project=\"D:\ALLMYFAVORITES\Games\ChaserGame\ChaserGame.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild
+  Log file: E:\Source5.1\UnrealEngine\Engine\Programs\UnrealBuildTool\Log.txt
+  Using 'git status' to determine working set for adaptive non-unity build (E:\Source5.1\UnrealEngine).
+  Creating makefile for ChaserGameEditor (no existing makefile)
+  Parsing headers for ChaserGameEditor
+    Running Internal UnrealHeaderTool D:\ALLMYFAVORITES\Games\ChaserGame\ChaserGame.uproject D:\ALLMYFAVORITES\Games\ChaserGame\Intermediate\Build\Win64\ChaserGameEditor\Development\ChaserGameEditor.uhtmanifest -WarningsAsErrors
+  Total of 6 written
+  Reflection code generated for ChaserGameEditor in 3.788586 seconds
+  Creating makefile for ShaderCompileWorker (no existing makefile)
+  Parsing headers for ShaderCompileWorker
+    Running Internal UnrealHeaderTool ShaderCompileWorker E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Development\ShaderCompileWorker.uhtmanifest -WarningsAsErrors
+  Total of 0 written
+  Reflection code generated for ShaderCompileWorker in 0.085193 seconds
+  Building ChaserGameEditor and ShaderCompileWorker...
+  Using Visual Studio 2022 14.33.31631 toolchain (D:\Visual Studio\VC\Tools\MSVC\14.33.31629) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Determining max actions to execute in parallel (6 physical cores, 6 logical cores)
+    Executing up to 6 processes, one per physical core
+  Distributing 9 actions to XGE
+  --------------------Build System Warning---------------------------------------
+  License is invalid:
+      License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+      This build will run in standalone mode.
+  
+  -------------------------------------------------------------------------------
+  
+  Build ID: {228BF21D-1593-468C-B873-4CA5AE468B49}
+  
+  --------------------Project: Default-------------------------------------------
+  ** For ChaserGameEditor-Win64-Development **
+  [1/9] ChaserGame.init.gen.cpp (0:12.23 at +0:00)
+  [2/9] ChaserGame.cpp (0:00.73 at +0:12)
+  [3/9] ChaserGameGameMode.gen.cpp (0:02.56 at +0:13)
+  [4/9] ChaserGameCharacter.gen.cpp (0:01.50 at +0:15)
+  [5/9] ChaserGameCharacter.cpp (0:04.78 at +0:17)
+  [6/9] ChaserGameGameMode.cpp (0:01.01 at +0:21)
+  [7/9] UnrealEditor-ChaserGame.dll (0:01.17 at +0:22)
+     Creating library D:\ALLMYFAVORITES\Games\ChaserGame\Intermediate\Build\Win64\UnrealEditor\Development\ChaserGame\UnrealEditor-ChaserGame.suppressed.lib and object D:\ALLMYFAVORITES\Games\ChaserGame\Intermediate\Build\Win64\UnrealEditor\Development\ChaserGame\UnrealEditor-ChaserGame.suppressed.exp
+  [8/9] UnrealEditor-ChaserGame.lib (0:00.17 at +0:24)
+     Creating library D:\ALLMYFAVORITES\Games\ChaserGame\Intermediate\Build\Win64\UnrealEditor\Development\ChaserGame\UnrealEditor-ChaserGame.lib and object D:\ALLMYFAVORITES\Games\ChaserGame\Intermediate\Build\Win64\UnrealEditor\Development\ChaserGame\UnrealEditor-ChaserGame.exp
+  [9/9] ChaserGameEditor.target (0:00.34 at +0:24)
+  ---------------------- Done ----------------------
+  
+      Rebuild All: 1 succeeded, 0 failed, 0 skipped
+  
+  1 build system warning(s):
+     - License is invalid
+  
+  Total time in XGE executor: 24.86 seconds
+  Total execution time: 40.12 seconds

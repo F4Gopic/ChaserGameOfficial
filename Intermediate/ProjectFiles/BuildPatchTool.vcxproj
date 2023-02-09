@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|x64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|x64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|x64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A52E348F-C09E-3DEF-B688-C983836AA62E}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>BuildPatchTool</RootNamespace>
+    <PlatformToolset>v143</PlatformToolset>
+    <MinimumVisualStudioVersion>17.0</MinimumVisualStudioVersion>
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat BuildPatchTool Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>E:\Source5.1\UnrealEngine\Engine\Binaries\Win64\BuildPatchTool-Win64-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat BuildPatchTool Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>E:\Source5.1\UnrealEngine\Engine\Binaries\Win64\BuildPatchTool-Win64-Development.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Build.bat BuildPatchTool Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\Source5.1\UnrealEngine\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>E:\Source5.1\UnrealEngine\Engine\Binaries\Win64\BuildPatchTool.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);E:\Source5.1\UnrealEngine\Engine\Source;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Launch\Private;E:\Source5.1\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Private;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\Core\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\Core\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\TraceLog\Public;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Core\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\TraceLog\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\TraceLog\VNI;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\CoreUObject\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\CoreUObject\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\BuildPatchServices\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\BuildPatchServices\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Online;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Online\BuildPatchServices\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\Projects\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\Projects\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Projects\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\Json\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\Json\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Json\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\HTTP\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\HTTP\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Online\HTTP\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\PakFile\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\PakFile\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\PakFile\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\RSA\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\RSA\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\RSA\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\SandboxFile\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\SandboxFile\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\SandboxFile\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\NetworkFile\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\NetworkFile\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\UObject;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\NetworkFile\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\StreamingFile\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\StreamingFile\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\StreamingFile\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\Sockets\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\Sockets\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Sockets\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\NetCommon\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\NetCommon\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Net;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Net\Common\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\ApplicationCore\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\ApplicationCore\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\ApplicationCore\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\RHI\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\RHI\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\RHI\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\Messaging\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\Messaging\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Messaging\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\AutomationWorker\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\AutomationWorker\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\AutomationWorker\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\AutomationController\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\AutomationController\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Developer;E:\Source5.1\UnrealEngine\Engine\Source\Developer\AutomationController\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\AutomationTest\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\AutomationTest\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\AutomationTest\Public;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\BuildPatchTool\UHT;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\BuildPatchTool\VNI;E:\Source5.1\UnrealEngine\Engine\Source\Programs;E:\Source5.1\UnrealEngine\Engine\Source\Runtime\Launch\Public;E:\Source5.1\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Public;D:\Visual Studio\VC\Tools\MSVC\14.33.31629\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Target.cs"/>
+    <None Include="E:\Source5.1\UnrealEngine\Engine\Programs\BuildPatchTool\Config\DefaultEngine.ini"/>
+    <None Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Automation.cs"/>
+    <None Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Build.cs"/>
+    <ClCompile Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Private\BuildPatchTool.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\BuildPatchTool\Definitions.BuildPatchTool.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Private\ToolMode.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\BuildPatchTool\Definitions.BuildPatchTool.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\AutomationMode.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\BuildPatchTool\Definitions.BuildPatchTool.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\ChunkDeltaOptimiseMode.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\BuildPatchTool\Definitions.BuildPatchTool.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\CompactifyMode.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\BuildPatchTool\Definitions.BuildPatchTool.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\DiffManifestMode.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\BuildPatchTool\Definitions.BuildPatchTool.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\EnumerationMode.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\BuildPatchTool\Definitions.BuildPatchTool.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\MergeManifestMode.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\BuildPatchTool\Definitions.BuildPatchTool.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\PackageChunksMode.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\BuildPatchTool\Definitions.BuildPatchTool.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\PatchGenerationMode.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\BuildPatchTool\Definitions.BuildPatchTool.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\VerifyChunksMode.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);E:\Source5.1\UnrealEngine\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\BuildPatchTool\Definitions.BuildPatchTool.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"E:\Source5.1\UnrealEngine\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Public\BuildPatchTool.h"/>
+    <ClInclude Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Public\Interfaces\ToolMode.h"/>
+    <ClInclude Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\AutomationMode.h"/>
+    <ClInclude Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\ChunkDeltaOptimiseMode.h"/>
+    <ClInclude Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\CompactifyMode.h"/>
+    <ClInclude Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\DiffManifestMode.h"/>
+    <ClInclude Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\EnumerationMode.h"/>
+    <ClInclude Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\MergeManifestMode.h"/>
+    <ClInclude Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\PackageChunksMode.h"/>
+    <ClInclude Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\PatchGenerationMode.h"/>
+    <ClInclude Include="E:\Source5.1\UnrealEngine\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\VerifyChunksMode.h"/>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

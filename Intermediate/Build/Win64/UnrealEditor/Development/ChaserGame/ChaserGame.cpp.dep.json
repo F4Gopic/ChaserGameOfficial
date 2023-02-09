@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\allmyfavorites\\games\\chasergame\\source\\chasergame\\chasergame.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\source5.1\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\allmyfavorites\\games\\chasergame\\intermediate\\build\\win64\\unrealeditor\\development\\chasergame\\definitions.chasergame.h",
+            "d:\\allmyfavorites\\games\\chasergame\\source\\chasergame\\chasergame.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
