@@ -1866,3 +1866,67 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.02.09-21.18.00:793][827]LogDerivedDataCache: Display: E:/UnrealProjects/DefendFromTimmies/DerivedDataCache: Cache put found non-deterministic value with new hash 86fa0facc291d5eab1bd5709592fb3ad45a62a47 and existing hash 3d3b06f83e0127f82f082de7c2e9b5864e8a3552 for MaterialShaderMap/70e7a94bacaedbfa663fa25ac27619ae51b253e2 from '/Engine/EditorMaterials/Thumbnails/FloorPlaneMaterial.FloorPlaneMaterial [PCD3D_SM6, SM6, Num]'
 [2023.02.09-21.18.03:421][ 93]LogDerivedDataCache: Display: E:/UnrealProjects/DefendFromTimmies/DerivedDataCache: Cache put found non-deterministic value with new hash abd688b8b31bdaf60c84e2168869e74c99a43433 and existing hash 329ec8ae36f68fd7b2736e670c0a0ec29c3a1592 for MaterialShaderMap/f116d9136437d862efd38fe436809e99ac1ad4c5 from '/Engine/EditorMaterials/Thumbnails/SkySphereMaterial.SkySphereMaterial [PCD3D_SM6, SM6, Num]'
 [2023.02.09-21.20.00:885][830]LogDerivedDataCache: Display: E:/UnrealProjects/DefendFromTimmies/DerivedDataCache: Cache put found non-deterministic value with new hash bc579ae06038f0313e8a132860d66960a99ad841 and existing hash 4954ed63fe4edb8f8724c7a304684e858fd1fd90 for MaterialShaderMap/d8dd24e23b9fdeceb014bf4f617ac1c251c69798 from '/Paper2D/DefaultSpriteMaterial.DefaultSpriteMaterial [PCD3D_SM6, SM6, Num]'
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display: ================================================
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display: Total job queries 3510, among them cache hits 116 (3.30%)
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display: Tracking 1006 distinct input hashes that result in 598 distinct outputs (59.44%)
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display: RAM used: 7.77 MB (0.01 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.47%
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display: Shaders Compiled: 1008
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display: Jobs assigned 3386, completed 1008 (29.77%)
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display: Average time worker was idle: 6.76 s
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 8.72 s
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display: Job execution time: average 283.61 s, max 688.31 s
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display: Job life time (pending + execution): average 283.84 s, max 688.38
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 807.36 s
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display: Jobs were issued in 455 batches (74 local, 381 distributed), average 7.44 jobs/batch (1.00 jobs/local batch. 8.69 jobs/distributed batch)
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display: Average processing rate: 1.25 jobs/sec
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display: Total thread time: 794.43 s
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display: Total thread preprocess time: 34.02 s
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display: Percentage time preprocessing: 4.28%
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display: Effective parallelization: 0.98 (times faster than compiling all shaders on one thread). Distributed compilation was used.
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display:                   TMaterialCHSTLightMapPolicyHQFAnyHitShader (compiled    1 times, average 2.12 sec, max 2.12 sec, min 2.12 sec)
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display: TMaterialCHSTDistanceFieldShadowsAndLightMapPolicyHQFAnyHitShader (compiled    1 times, average 1.85 sec, max 1.85 sec, min 1.85 sec)
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display:                   TMaterialCHSTLightMapPolicyLQFAnyHitShader (compiled    1 times, average 1.85 sec, max 1.85 sec, min 1.85 sec)
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display: TMaterialCHSFPrecomputedVolumetricLightmapLightingPolicyFAnyHitShader (compiled    2 times, average 1.84 sec, max 1.86 sec, min 1.82 sec)
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display:         TMaterialCHSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    3 times, average 1.63 sec, max 1.67 sec, min 1.59 sec)
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS - 7.95% of total time (compiled   70 times, average 0.90 sec, max 19.32 sec, min 0.48 sec)
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS - 7.30% of total time (compiled   37 times, average 1.57 sec, max 3.57 sec, min 1.10 sec)
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 7.19% of total time (compiled   35 times, average 1.63 sec, max 3.25 sec, min 1.22 sec)
+[2023.02.09-21.20.57:623][530]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 6.40% of total time (compiled   67 times, average 0.76 sec, max 2.08 sec, min 0.55 sec)
+[2023.02.09-21.20.57:624][530]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 6.00% of total time (compiled   68 times, average 0.70 sec, max 0.99 sec, min 0.49 sec)
+[2023.02.09-21.20.57:624][530]LogShaderCompilers: Display: ================================================
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display: ================================================
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display: Total job queries 3510, among them cache hits 116 (3.30%)
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display: Tracking 1214 distinct input hashes that result in 660 distinct outputs (54.37%)
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display: RAM used: 9.01 MB (0.01 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.55%
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display: Shaders Compiled: 1216
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display: Jobs assigned 3386, completed 1216 (35.91%)
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display: Average time worker was idle: 6.76 s
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 8.72 s
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display: Job execution time: average 370.20 s, max 870.40 s
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display: Job life time (pending + execution): average 370.39 s, max 870.45
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 989.64 s
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display: Jobs were issued in 455 batches (74 local, 381 distributed), average 7.44 jobs/batch (1.00 jobs/local batch. 8.69 jobs/distributed batch)
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display: Average processing rate: 1.23 jobs/sec
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display: Total thread time: 966.28 s
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display: Total thread preprocess time: 42.14 s
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display: Percentage time preprocessing: 4.36%
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display: Effective parallelization: 0.98 (times faster than compiling all shaders on one thread). Distributed compilation was used.
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display:                   TMaterialCHSTLightMapPolicyHQFAnyHitShader (compiled    1 times, average 2.12 sec, max 2.12 sec, min 2.12 sec)
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display: TMaterialCHSTDistanceFieldShadowsAndLightMapPolicyHQFAnyHitShader (compiled    1 times, average 1.85 sec, max 1.85 sec, min 1.85 sec)
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display:                   TMaterialCHSTLightMapPolicyLQFAnyHitShader (compiled    1 times, average 1.85 sec, max 1.85 sec, min 1.85 sec)
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display: TMaterialCHSFPrecomputedVolumetricLightmapLightingPolicyFAnyHitShader (compiled    2 times, average 1.84 sec, max 1.86 sec, min 1.82 sec)
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   35 times, average 1.67 sec, max 2.53 sec, min 1.15 sec)
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS - 7.87% of total time (compiled   88 times, average 0.86 sec, max 19.32 sec, min 0.48 sec)
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 7.21% of total time (compiled   87 times, average 0.80 sec, max 2.47 sec, min 0.55 sec)
+[2023.02.09-21.23.59:888][ 85]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 6.57% of total time (compiled   88 times, average 0.72 sec, max 0.99 sec, min 0.49 sec)
+[2023.02.09-21.23.59:889][ 85]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 6.08% of total time (compiled   36 times, average 1.63 sec, max 3.25 sec, min 1.22 sec)
+[2023.02.09-21.23.59:889][ 85]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 6.04% of total time (compiled   35 times, average 1.67 sec, max 2.53 sec, min 1.15 sec)
+[2023.02.09-21.23.59:889][ 85]LogShaderCompilers: Display: ================================================
